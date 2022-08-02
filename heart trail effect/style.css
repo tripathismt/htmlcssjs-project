@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+}
+span{
+    background: url("1.png");
+    height:100px;
+    width: 100px;
+    position: absolute;
+    pointer-events: none;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    overflow: hidden;
+    animation: anime 6s linear;
+
+}
+
+@keyframes anime{
+    0%{
+        transform: translate(-50% , -50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+
+    100%{
+        transform: translate(-50% , -5000%);
+        opacity: 0;
+        filter: hue-rotate(720deg);
+    }
+}
