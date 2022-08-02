@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    background-color: blanchedalmond;
+    
+    
+    
+}
+.container-nav{
+    background-color: aqua;
+    display:space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.company{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-left: 2rem;
+   font-size: 2rem;
+   height: 3rem;
+   width: 17rem;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   box-shadow: 2px 2px 8px blue;
+}
+
+div a{
+   
+    margin: 1rem;
+    position: absolute;
+    top: 1.8rem;
+    right: 4rem;
+    text-decoration: none;
+    font-size: large;
+  
+    
+}
+
+.home{
+    position: absolute;
+    right: 15rem;
+    margin-right: 8rem;
+}
+.blog{
+    position: absolute;
+    right: 11rem;
+    margin-right: 4rem;
+
+}
+.image{
+   
+    height:80vh;
+    width: 100vw;
+    border: 1rem solid aliceblue;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.content-div{
+    top: 45rem;
+    background-color: aliceblue;
+    margin:.8rem;
+    
+}
+p{
+    background-color: rgb(195, 215, 224);
+    margin: 0.5rem;
+    margin-top:1rem;
+    padding: 1rem;
+    
+}
+.first{
+    border-top:1rem solid aliceblue;
+}
+.last{
+    border-bottom:1rem solid aliceblue;
+}
+
+footer{
+    height:20rem;
+    background-color: rgb(237, 204, 133);
+    margin: 1rem;
+    border: 1rem solid rgb(244, 242, 239);
+    display: flex;
+
+}
+.info{
+    background-color: rgb(178, 238, 248);
+    margin: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large; 
+}
+.details{
+    background-color:rgb(178, 238, 248);
+    margin: 1rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.active
+{
+    background-color: black;
+     color: azure;
+     transition: 500ms;
+
+}
+
