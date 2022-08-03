@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    
+}
+.content-container{
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+ 
+   
+}
+img{
+    height: 15rem;
+    width: 30rem;
+    border-radius: 20px;
+    
+}
+h1{
+    font-family: sans-serif;
+    font-weight: 300;
+    color: aliceblue;
+}
+p{
+    font-family: cursive;
+    height: 8rem;
+    width: 30rem;
+    color: aliceblue;
+}
+.btn{
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: orange;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 500ms;
+}
+.video{
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 72vh;
+    width: 72vw;
+    transform: translate(-50%,-50%);
+}
+.close{
+    color: aliceblue;
+    position: relative;
+    font-size: 2rem;
+    top:2.5rem;
+    left: 83%;
+}
+.close:hover{
+    color: rgb(207, 178, 168);
+}
+.active{
+    display: none;
+}
