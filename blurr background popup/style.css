@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0%;
+    
+    
+    
+   
+}
+.inner-container{
+    
+    color: rgb(251, 238, 238);
+    font-size: 2rem;
+    display: flex;
+    background:url(./1.jpg);
+    background-size:cover;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    background-color: orangered;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    height: 3rem;
+    width: 11rem;
+    cursor: pointer;
+}
+.btn:hover{
+    filter: brightness(1.5);
+}
+.popup-container{
+    
+   background:url(./2.jpg);
+   background-size: cover;
+   position: fixed;
+   height:20rem;
+   width: 40rem;
+   border: 1px solid white;
+   box-shadow: 4px 4px 3px rgb(141, 228, 3);
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   opacity: 1;
+   transition: all 0.5s;
+}
+h2{
+    color: white;
+    font-size: 3rem;
+    margin-left: 1.5rem;
+    margin-bottom:3rem;
+}
+label{
+    margin-left: 2.5rem;
+    color: aquamarine;
+    font-size: 1.5rem;
+}
+#email{
+   margin-top: 1rem;
+   margin-left: 2.5rem;
+     height: 3rem;
+     width: 35rem;
+     border-radius: 2rem;
+}
+.close{
+    color:rgb(130, 35, 219);
+    position: absolute;
+    top:5%;
+    right: 2%;
+    height: 2rem;
+    width:2rem;
+
+}
+.close:hover{
+    border:2px solid black;
+    
+}
+.join{
+    background-color: orangered;
+    height: 2.5rem;
+    width: 35rem;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+.join:hover{
+    background-color: orange;
+}
+
+.active{ 
+    
+   visibility: hidden;
+    opacity:0;
+    top: 10%;
+    
+}
+.Active{
+    filter: blur(5px) brightness(0.7);
+   
+}
